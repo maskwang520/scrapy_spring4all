@@ -164,7 +164,7 @@ function initCasper() {
       //throw new Error
       this.echo('onWaitTimeout timeout ' + mills);
     },
-    verbose: true,
+    verbose: true,        //输出日志的真实时间
     logLevel: 'info',     // debug, info, warning, error
     pageSettings: {
       loadImages: false, //不加载图片
